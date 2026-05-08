@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @font-face {
+      font-family: 'Outfit';
+      src: url('https://fonts.google.com/specimen/Outfit') format('woff2');
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box; 
+      font-size: 15px;
+    }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+    }
+    .container {
+      display: flex;
+      margin: 10rem auto;
+      width: 20rem;
+      height: 28rem;
+      background-color: white;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 3rem;
+      border-radius: 1rem;
+    }
+    .title-container {
+      font-weight: bold;
+      margin: 20px 0;
+      line-height: 1.25;
+    } 
+    .description {
+      font-size: 12px;
+      color: hsl(220, 15%, 55%);
+      margin-top: 10px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <div class="container">
+    <img src="./images/image-qr-code.png" alt="QR Code" height="250px" width="250px">
+    <div class="item">
+      <p class="title-container">Improve your front-end skills by building projects</p>
+      <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+</main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Claude Dev</a>.
+  </footer>
+</body>
+</html>
